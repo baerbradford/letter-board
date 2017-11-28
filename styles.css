@@ -1,0 +1,26 @@
+.letter-board {
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 20px outset #C04000;
+}
+
+.letter-board.letter-chalk {
+    color: #ddd;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.letter-board.chalkboard-black {
+    background-image: url("letter-board-backgrounds/chalkboard-black.jpg");
+}
+
+.letter-board.chalkboard-blue {
+    background-image: url("letter-board-backgrounds/chalkboard-blue.jpg");
+}
+
+.letter-board.chalkboard-green {
+    background-image: url("letter-board-backgrounds/chalkboard-green.jpg");
+}
