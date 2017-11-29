@@ -13,6 +13,21 @@
     font-size: 30px;
 }
 
+.letter-board.letter-plastic {
+    font-family: 'Spectral SC', serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.letter-board.felt-black {
+    background-image: url("letter-board-backgrounds/black-letter-board.png");
+    background-size: cover;
+    border: none; /* Background image has frame. */
+    padding: 25px;
+    
+}
+
 .letter-board.chalkboard-black {
     background-image: url("letter-board-backgrounds/chalkboard-black.jpg");
 }
