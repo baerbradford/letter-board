@@ -36,6 +36,8 @@ var letterBoard = function() {
                 $('#user-message').html(userMessage);
                 $('#running-count-message').html(runningCountMessage);
             });
+            $('#' + sourceId).val('#SPELTONFELT');
+            $('#' + sourceId).trigger('change');
         });
     };
 
