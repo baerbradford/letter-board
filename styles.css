@@ -6,13 +6,6 @@
     border: 20px outset #C04000;
 }
 
-.letter-board.letter-chalk {
-    color: #ddd;
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: 400;
-    font-size: 30px;
-}
-
 .letter-board.letter-plastic {
     font-family: 'Spectral SC', serif;
     color: white;
@@ -26,16 +19,4 @@
     border: none; /* Background image has frame. */
     padding: 25px;
     
-}
-
-.letter-board.chalkboard-black {
-    background-image: url("letter-board-backgrounds/chalkboard-black.jpg");
-}
-
-.letter-board.chalkboard-blue {
-    background-image: url("letter-board-backgrounds/chalkboard-blue.jpg");
-}
-
-.letter-board.chalkboard-green {
-    background-image: url("letter-board-backgrounds/chalkboard-green.jpg");
 }
