@@ -55,6 +55,12 @@
                     var userInput = $(this).val().toUpperCase();
                     letterBoardContainer.text(userInput);
 
+                    // Composite chars. Don't display this to user.
+                    userInput = userInput.split('!').join('.I');
+                    userInput = userInput.split("'").join(',');
+                    userInput = userInput.split('"').join(',,');
+                    userInput = userInput.split(';').join('.,');
+
                     var userMessage = '';
                     var runningCountMessage = '';
                     for(var char in charDict) {
