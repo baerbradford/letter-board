@@ -27,16 +27,29 @@
             white-space: pre-wrap;
             word-wrap: break-word;
         }
+        body, textarea {
+            font-family: 'News Cycle', sans-serif;
+        }
+        textarea {
+            margin: 10px;
+        }
     </style>    
     <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet"> 
-    <textarea id="letter-board-source" placeholder="Enter text here."></textarea>
-    <div class="letter-board" data-letter-board-source="letter-board-source">
-        <div>#SPELTONFELT</div>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <div>
+            <textarea id="letter-board-source" placeholder="Enter text here." style="height: 150px; width: 250px;"></textarea>
+            <div id="user-message"></div>
+            <h4 style="display: none;">Letter Count</h4>
+            <div id="running-count-message" style="display: none;"></div>
+        </div>
+        
+        <div class="letter-board" data-letter-board-source="letter-board-source">
+            <div>#SPELTONFELT</div>
+        </div>
     </div>
-    <div id="user-message"></div>
     
-    <h4>Running Count</h4>
-    <div id="running-count-message"></div>
+    
+    
 
     <!-- Scripts  --> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
