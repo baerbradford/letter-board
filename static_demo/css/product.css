@@ -56,6 +56,11 @@
     right: auto;
     bottom: 0;
     left: 5%;
+    background-color: #ddc9b8;
+}
+
+.product-device.product-device-2::before{
+    background-color: rgba(0, 0, 0, .5);
 }
 
 
