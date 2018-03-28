@@ -64,7 +64,7 @@
     flex: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 990px) {
     .flex-md-equal>* {
         -ms-flex: 1;
         -webkit-box-flex: 1;
